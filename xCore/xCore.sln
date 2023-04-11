@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment_WebApi", "Assignment_WebApi\Assignment_WebApi.csproj", "{DBD53331-94FF-48D8-9619-4BAAC46880BB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment_ClassLibrary", "Assignment_ClassLibrary\Assignment_ClassLibrary.csproj", "{2BC898BC-9074-4A05-B03A-91668E55DEDC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{DBD53331-94FF-48D8-9619-4BAAC46880BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBD53331-94FF-48D8-9619-4BAAC46880BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBD53331-94FF-48D8-9619-4BAAC46880BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BC898BC-9074-4A05-B03A-91668E55DEDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BC898BC-9074-4A05-B03A-91668E55DEDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BC898BC-9074-4A05-B03A-91668E55DEDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BC898BC-9074-4A05-B03A-91668E55DEDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
