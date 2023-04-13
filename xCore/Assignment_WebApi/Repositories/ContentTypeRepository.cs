@@ -1,7 +1,6 @@
 ﻿using Assignment_ClassLibrary.Models.DTOs;
 using Assignment_ClassLibrary.Models.Entities;
 using Assignment_WebApi.Contexts;
-using Assignment_WebApi.Validators;
 
 namespace Assignment_WebApi.Repositories;
 

@@ -93,10 +93,10 @@ namespace Assignment_WebApi.Controllers
             if (ModelState.IsValid)
             {
                 await _articleService.DeleteArticleAsync(id);
-                return new OkResult();
+                return Ok();
             }
 
-            return new BadRequestResult();
+            return BadRequest();
         }
 
         [HttpPut("{id}")]
@@ -111,10 +111,6 @@ namespace Assignment_WebApi.Controllers
                     return Ok(res);
                 }
 
-                else
-                {
-                    return NotFound();
-                }
             }
 
             return BadRequest();

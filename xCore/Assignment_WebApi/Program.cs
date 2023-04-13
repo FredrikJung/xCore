@@ -2,7 +2,6 @@ using Assignment_ClassLibrary.Models.Validators;
 using Assignment_WebApi.Contexts;
 using Assignment_WebApi.Repositories;
 using Assignment_WebApi.Services;
-using Assignment_WebApi.Validators;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
