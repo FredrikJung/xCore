@@ -81,11 +81,7 @@ namespace Assignment_WebApi.Controllers
                 {
                     return Created("", res);
                 }
-                else
-                {
-                    return NotFound();
-                }
-                    
+          
             }
 
             return BadRequest();
