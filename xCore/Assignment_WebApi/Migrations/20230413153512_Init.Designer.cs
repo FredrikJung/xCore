@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Assignment_WebApi.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20230411093919_UpdatedArticleEntityAgain")]
-    partial class UpdatedArticleEntityAgain
+    [Migration("20230413153512_Init")]
+    partial class Init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
